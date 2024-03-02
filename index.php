@@ -17,6 +17,15 @@ $SERVER_PATH = $_SERVER['DOCUMENT_ROOT'] . "/AlumniConnect"; // Use the server p
 <body>
 
     <?php require "./utility/header.php"; ?>
+     <!-- Message Section -->
+
+     <div class="message-container">
+        <h4>Alumni Connect <br>Computer Science and Engineering <br> Tezpur University</h4>
+        <h2>Together Again!</h2>
+        <p>Welcome back, brilliant minds of 0s and 1s! As CSE alumni, you're the architects of the digital future. Reconnect, reminisce, and inspire. Together, let's code unforgettable memories!</p>
+    </div>
+
+    
 
     <!-- Carasoul -->
 
@@ -44,17 +53,7 @@ $SERVER_PATH = $_SERVER['DOCUMENT_ROOT'] . "/AlumniConnect"; // Use the server p
 
     </div>
 
-    <!-- Message Section -->
-
-    <div class="message-container">
-        <h4>Alumni Connect <br>Computer Science and Engineering <br> Tezpur University</h4>
-        <h2>Together Again!</h2>
-        <p>Welcome back, brilliant minds of 0s and 1s! As CSE alumni, you're the architects of the digital future. Reconnect, reminisce, and inspire. Together, let's code unforgettable memories!</p>
-    </div>
-
-    <div class="Credit">
-        <img src="" alt="">
-    </div>
+   
 
     <!---Alumni Achievement-->
 
