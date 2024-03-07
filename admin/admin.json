@@ -8,7 +8,7 @@
     },
 
     "2":{
-        "img": "./admin-photo/admin.jpg",
+        "img": "./admin-photo/nabo.jpg",
         "name": "Dr. Nabajyoti Medhi",
         "designation": "Alumni Coordinator",
         "designation2": "Professor (CSE Department)",
@@ -85,7 +85,7 @@
     },
 
     "11":{
-        "img": "./admin-photo/admin.jpg",
+        "img": "./admin-photo/Rupesh.jpg",
         "name": "Rupesh Kumar",
         "designation": "Developer",
         "programme": "B.Tech",
