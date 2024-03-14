@@ -126,13 +126,14 @@ a {
 .message-container {
   text-align: center;
   position: absolute;
-  /*top: 32%;*/
-  /*left: 50%;*/
   margin-left: auto;
   z-index: 100;
   /*transform: translate(-50%, -50%);*/
   color: white;
   margin-top: 2rem;
+}
+.m1 {
+  top: 0%;
 }
 .message-container h4 {
   font-size: 12px;
@@ -178,9 +179,8 @@ a {
   align-items: center;
   margin: 10px auto;
   border-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .potrait {
@@ -210,13 +210,12 @@ a {
 }
 
 .Achievement-box .Introduction p {
-  font-size: 10px ;
+  font-size: 10px;
 }
 
 #Bridge {
   text-decoration: none;
   color: black;
- 
 }
 .GiveBack-Container {
   display: flex;
@@ -277,9 +276,8 @@ a {
   margin: auto;
   margin: 5px;
   border-radius: 16px;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
-    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
-    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .Event_card .Introduction {
   width: 100%;
@@ -293,14 +291,14 @@ a {
   object-fit: cover;
 }
 .Event_card .Introduction h3 {
-  text-align: center;
+  /* text-align: center; */
   padding: 10px;
   font-size: 14px;
 }
 .Event_card .Introduction p,
 .Introduction h5 {
   font-size: 12px;
-  text-align: center;
+  /* text-align: center; */
   padding: 10px;
 }
 
@@ -564,9 +562,8 @@ a {
     width: 25%;
   }
   .GiveBack-Container {
-   
     flex-wrap: nowrap;
-  } 
+  }
 
   .Event_card {
     width: 20%;
@@ -651,14 +648,14 @@ a {
   }
 
   .Achievement-box .Introduction p {
-    font-size: 16px ;
+    font-size: 16px;
   }
 
   .GB {
     width: 20% !important;
     margin: 10px;
   }
-  
+
   .card_img {
     width: 100px;
     height: 100px;
@@ -681,6 +678,11 @@ a {
 @media screen and (min-width: 1520px) {
   .message-container {
     margin-top: 8rem;
+  }
+  .card_img{
+    width: 100px;
+    height: 100px;
+
   }
 }
 
@@ -763,7 +765,7 @@ a {
   .GiveBack-Container {
     margin-bottom: 80px;
   }
- 
+
   .GB {
     width: 20%;
     margin: 15px;
@@ -807,7 +809,7 @@ a {
 .More_button h3 {
   font-size: 16px;
   border: 1px solid black;
-  background-color: #9747ff;
+  background-color: #000235;
 
   border-radius: 8px;
   padding: 8px;
